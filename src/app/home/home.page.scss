@@ -1,18 +1,64 @@
-.conteudo{
+ion-content {
+  --background: rgb(250, 28, 28);
+}
+
+ion-fab-button{
+  --background: #f62f2f;
+  --background-activated: #da2727;
+}
+
+h1 {
+  background: #ffff;
+  padding: 25px;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  color: #f62f2f;
+  margin-top: 35px;
+}
+
+.produto {
+  color: #fce301;
+  font-weight: 700;
+
+}
+
+.conteudo {
   font-size: 2rem;
   padding: 32px;
 }
-.linha{
+
+.linha {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.mostrador{
+
+.mostrador {
   display: flex;
   align-items: center;
   gap: 10px;
+
+  ion-button {
+    --background: #ffff;
+    --background-activated: #aaaa;
+    --color: #000;
+    ion-icon{
+      font-size: 16px;
+    }
+  }
+
+  input {
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+  }
 }
-.resultado{
+
+.resultado {
+  color: #ffffff;
   margin-top: 64px;
   font-weight: 700;
 }
